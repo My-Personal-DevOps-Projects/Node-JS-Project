@@ -6,7 +6,7 @@
 ```
 git clone https://github.com/verma-kunal/AWS-Session.git
 ```
-2. Setup the following environment variables - `(.env)` file
+2. Setup the following environment variables - `(.env)` file 
 ```
 DOMAIN= ""
 PORT=3000
@@ -15,6 +15,7 @@ STATIC_DIR="./client"
 PUBLISHABLE_KEY=""
 SECRET_KEY=""
 ```
+Note: For Payment Gatway, I used (https://dashboard.stripe.com)
 3. Initialise and start the project
 ```
 npm install
